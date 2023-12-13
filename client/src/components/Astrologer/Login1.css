@@ -1,0 +1,56 @@
+.login__wrapper {
+    height: 100vh;
+    background-color: #5372b6;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/Assets/8382833.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.loginForm__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: rgb(237, 220, 220) !important;
+    height: auto;
+    width: 100vw;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.06) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(13.7px) !important;
+-webkit-backdrop-filter: blur(13.7px) !important;
+border: 1px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+.App-logo {
+    height: 9vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    
+    font-size: calc(10px + 2vmin);
+    
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

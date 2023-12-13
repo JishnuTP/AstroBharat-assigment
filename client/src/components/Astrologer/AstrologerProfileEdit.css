@@ -1,0 +1,104 @@
+/* Logo css */
+.App-logo {
+    height: 7vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    
+    font-size: calc(10px + 2vmin);
+    
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+/* Home css */
+
+.home-container{
+    height: auto;
+    width: 100vw;
+    background-color: #5372b6;
+    display: flex;
+}
+
+/* Side Navbar css */
+.home-container-left{
+    height: 100vh;
+    width: 17vw;
+}
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.nav-lists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.nav-list{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.01);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+transition: all 0.5s ;
+
+}
+
+.nav-list:hover{
+    background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+border-radius: 16px;
+-webkit-backdrop-filter: blur(5px);
+}
+
+.active-nav-list {
+    background: rgba(255, 255, 255, 0.507);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+
+}
+
+
+/* Main content css */
+
+.home-container-right{
+    height: 100vh;
+    width: 83vw;
+    background-color: rgb(250, 250, 250);
+}
+.main-container{
+  margin: 30px;
+}
